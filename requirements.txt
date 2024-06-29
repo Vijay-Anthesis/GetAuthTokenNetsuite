@@ -3,10 +3,15 @@
 # Manually managing azure-functions-worker may cause unexpected issues
 
 azure-functions
+pyjwt
+requests
+cryptography
 logging
 jwt
 time
 base64
-cryptography.hazmat.primitives.serialization 
-datetime 
-requests
+os
+json
+datetime
+azure.keyvault.secrets
+azure.identity
